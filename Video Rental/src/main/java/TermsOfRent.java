@@ -39,4 +39,14 @@ public class TermsOfRent {
         }
         return this.price;
     }
+
+    @Override
+    public String toString() {
+        return "TermsOfRent{" +
+                "person=" + person +
+                ", movie=" + movie +
+                ", days=" + days +
+                ", price=" + price +
+                '}';
+    }
 }

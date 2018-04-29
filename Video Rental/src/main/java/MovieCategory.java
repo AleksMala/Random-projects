@@ -4,7 +4,8 @@ public enum MovieCategory {
     THRILLER("thriller"),
     ACTION("action"),
     ANIMATION("animation"),
-    MUSICAL("musical");
+    MUSICAL("musical"),
+    DRAMA("drama");
 
     private final String type;
 

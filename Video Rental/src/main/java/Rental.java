@@ -19,5 +19,4 @@ public class Rental implements RentalDAO {
             TermsOfRent newTermsOfRent = new TermsOfRent(person, movie, days);
         }
     }
-
 }

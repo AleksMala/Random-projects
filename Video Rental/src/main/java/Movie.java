@@ -34,4 +34,12 @@ public class Movie {
     public void setAvailability(boolean availability) {
         this.availability = availability;
     }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "nameOfMovie='" + nameOfMovie + '\'' +
+                ", category=" + category +
+                '}';
+    }
 }
